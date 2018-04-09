@@ -15,16 +15,16 @@ body {
 
 header{
     background: #ebebeb;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 20px;
-    color: green;
+    color:#777;
 }
 
 nav{
     background: #ebebeb;
-    padding: 20px;
+    padding: 35px;
     margin-bottom: 20px;
-    color: blue;
+    color: #777;
 
 }
 
@@ -33,10 +33,10 @@ nav{
     color: #777;
     padding 20px;
     width: 55%;
-    height:180px;
+    height:300px;
     float:left;
     position: relative;
-    margin:0;
+    margin:auto;
     top:0;
     left:0;
 }
@@ -45,26 +45,28 @@ section{
     color: #ebebeb;
     background: #777;
     position: absolute;
-    height:150px;
-    width:310px;
-    left:120px;
+    height:220px;
+    width:350px;
+    left:100px;
+    padding:20px;
 }
 
 aside{
     background: #ebebeb;
     color:#777;
-    width:40%;
+    width:42%;
     padding:20px;
-    height:180px;
+    height:300px;
     float:right;
     overflow:auto;
+    margin-bottom:30px;
 }
   
 #subhead1{
-    background:pink;
+    background:#ebebeb;
     color: #777;
-    float:left;
     z-index:3;
+    padding:20px;
 
 }
 
@@ -72,16 +74,14 @@ aside{
     background: #ebebeb;
     color: #777;
     z-index:3;
-    top:5%;
+    padding:20px;
 }
 
 footer{
     background: #ebebeb;
-    color:#777;
-    padding:20px;
+    padding:35px;
     clear: both;
-    display:block;
-    overflow: auto;
+   border: 10px #777;
 }
 
 
